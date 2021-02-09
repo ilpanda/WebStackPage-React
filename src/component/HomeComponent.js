@@ -75,25 +75,30 @@ class HomeComponent extends React.Component {
         return (<div className="page-container">
             <div className="sidebar-menu toggle-others fixed">
                 <div className="sidebar-menu-inner">
-                    <header className="logo-env">
+                    <div style={{display:"flex",justifyContent:"center"}}>
 
-                        <div className="logo">
-                            <a href="index.html" className="logo-expanded">
-                                <img src="/assets/images/logo@2x.png" width="100%" alt=""/>
-                            </a>
-                            <a href="index.html" className="logo-collapsed">
-                                <img src="/assets/images/logo-collapsed@2x.png" width="40" alt=""/>
-                            </a>
-                        </div>
-                        <div className="mobile-menu-toggle visible-xs">
-                            <a href="#" data-toggle="user-info-menu">
-                                <i className="linecons-cog"></i>
-                            </a>
-                            <a href="#" data-toggle="mobile-menu">
-                                <i className="fa-bars"></i>
-                            </a>
-                        </div>
-                    </header>
+                        <header className="logo-env">
+
+                            <div className="logo">
+                                <a href="index.html" className="logo-expanded">
+                                    <img src="/assets/images/logo@2x.png" width="100%" alt=""/>
+                                </a>
+                                <a href="index.html" className="logo-collapsed">
+                                    <img src="/assets/images/logo-collapsed@2x.png" width="40" alt=""/>
+                                </a>
+                            </div>
+                            <div className="mobile-menu-toggle visible-xs">
+                                <a href="#" data-toggle="user-info-menu">
+                                    <i className="linecons-cog"></i>
+                                </a>
+                                <a href="#" data-toggle="mobile-menu">
+                                    <i className="fa-bars"></i>
+                                </a>
+                            </div>
+                        </header>
+
+                    </div>
+
                     <ul id="main-menu" className="main-menu">
                         <li>
                             <a href="#常用推荐" className="smooth">
