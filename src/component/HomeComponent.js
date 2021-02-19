@@ -769,11 +769,6 @@ class HomeComponent extends React.Component {
                                         <span className="title">UI资源</span>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#字体资源" className="smooth">
-                                        <span className="title">字体资源</span>
-                                    </a>
-                                </li>
                             </ul>
                         </li>
                         <li>

@@ -785,7 +785,6 @@ body {
     width: 100%;
     height: 100%;
     padding-left: 40px;
-    padding-right: 40px;
 }
 
 .boxed-container .page-container {
@@ -1235,7 +1234,7 @@ body {
 
     .sidebar-menu.collapsed .sidebar-menu-inner {
         overflow: visible;
-        position: relative
+        /*position: relative*/
     }
 
     .sidebar-menu.collapsed .logo-env {
@@ -2414,6 +2413,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
     border: 0;
     padding: 0;
     margin: -30px;
+    margin-left: 0;
     margin-bottom: 30px
 }
 
@@ -4055,7 +4055,8 @@ body.chat-open #chat {
 
 @media screen and (max-width: 768px) {
     .page-container {
-        display: block
+        display: block;
+        padding-left: 0;
     }
 
     .page-container .sidebar-menu,
